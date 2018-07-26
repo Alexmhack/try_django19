@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Django-Blog</title>
+</head>
+<body>
+	<h1>Create the post for the blog here.</h1>
+
+	<div>
+		{% for obj in queryset_list %}
+
+		{{ obj.title }}<br>
+		{{ obj.content }}<br>
+		{{ obj.timestamp }}<br>
+		{{ obj.updated }}<br>
+		{{ obj.id }}<br><br>
+
+		{% endfor %}
+	</div>
+
+</html>

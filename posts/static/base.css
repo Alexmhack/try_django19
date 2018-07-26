@@ -1,0 +1,9 @@
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #ccc;
+}
